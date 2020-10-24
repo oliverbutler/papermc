@@ -18,4 +18,4 @@ if [ ! -e ${JAR_NAME}.jar ] || [ ${PAPER_BUILD} = latest ]
 fi
 
 # Start server
-java -server -Xms${MC_RAM} -Xmx${MC_RAM} ${JAVA_OPTS} -jar ${JAR_NAME}.jar nogui
+java -server -Xms${MC_RAM} -Xmx${MC_RAM} ${JAVA_FLAGS} -jar ${JAR_NAME}.jar nogui
